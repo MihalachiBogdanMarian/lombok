@@ -54,7 +54,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <!-- add in a hook for each project to help Maven pick it up and do the annotation processing -->
+                    <!-- add in a hook for each tool (Lombok, MapStruct) to help Maven pick it up and do the annotation processing -->
                     <!-- at runtime, through the annotation in the code -->
                     <annotationProcessorPaths>
                         <path>
